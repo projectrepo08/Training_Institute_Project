@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Shine-Tech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="logo.png" alt="Shine-Tech Logo">
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Training.html">Training</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+        </div>
+    </section>
+
+    <section class="contact-page">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <div class="info-item">
+                        <h3>📧 Email</h3>
+                        <p>info@shinetech.com</p>
+                        <p>support@shinetech.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>📞 Phone</h3>
+                        <p>+91-98765-43210</p>
+                        <p>+91-98765-43211</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>📍 Address</h3>
+                        <p>Shine-Tech Training Institute</p>
+                        <p>123 Tech Street, Innovation City</p>
+                        <p>Bangalore, Karnataka - 560001</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>🕒 Office Hours</h3>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        <p>Saturday: 10:00 AM - 4:00 PM</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <h2>Send Us A Message</h2>
+                    <form class="contact-form-full" id="contactFormFull">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="qualification">Qualification *</label>
+                            <input type="text" id="qualification" name="qualification" placeholder="Enter your qualification" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email (optional)">
+                        </div>
+                        <div class="form-group">
+                            <label for="course">Interested In</label>
+                            <select id="course" name="course">
+                                <option value="">Select a program</option>
+                                <option value="fullstack">Full Stack Development</option>
+                                <option value="uiux">UI/UX Designing</option>
+                                <option value="aiml">AI/ML</option>
+                                <option value="digital">Digital Marketing</option>
+                                <option value="python">Python Programming</option>
+                                <option value="datascience">Data Science</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Tell us about your requirements..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Send Message</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="container">
+            <h2>Find Us Here</h2>
+            <div class="map-placeholder">
+                <p>📍 Shine-Tech Training Institute</p>
+                <p>123 Tech Street, Innovation City, Bangalore</p>
+                <p style="margin-top: 20px; font-size: 14px; color: #666;">Map integration available upon request</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <img src="logo.png" alt="Shine-Tech" class="footer-logo">
+                <h3>Terms & Condition</h3>
+                <p>1. Use of our services and products is subject to our terms and conditions.</p>
+                <p>2. All payments are non-refundable unless otherwise stated.</p>
+                <p>3. Users must abide by intellectual property rights.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Training.html">Training</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact us</h3>
+                <p>Email: info@shinetech.com</p>
+                <p>Phone: +91-98765-43210</p>
+                <p>Address: 123 Tech Street, Innovation City</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>©2025 Shine-Tech. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <button id="scrollTopBtn" class="scroll-top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
